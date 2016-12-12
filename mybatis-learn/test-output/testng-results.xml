@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="473" started-at="2016-12-12T14:55:55Z" finished-at="2016-12-12T14:55:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="473" started-at="2016-12-12T14:55:55Z" finished-at="2016-12-12T14:55:56Z">
+      <class name="com.mybatis.util.DBToolTest">
+        <test-method status="PASS" signature="testDeleteUser()[pri:0, instance:com.mybatis.util.DBToolTest@7921b0a2]" name="testDeleteUser" duration-ms="459" started-at="2016-12-12T22:55:55Z" finished-at="2016-12-12T22:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- com.mybatis.util.DBToolTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -4,8 +4,8 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <!-- 和spring整合后 environments配置将废除-->
-    <environments default="development">
-        <environment id="development">
+    <environments default="test">
+        <environment id="test">
         <!-- 使用jdbc事务管理,事务控制由mybatis管理-->
             <transactionManager type="JDBC" />
         <!-- 数据库连接池,由mybatis管理-->
@@ -13,12 +13,15 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
                 <property name="driver" value="com.mysql.jdbc.Driver" />
                 <property name="url" value="jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8" />
                 <property name="username" value="root" />
-                <property name="password" value="root" />
+                <property name="password" value="Caiwen2010" />
             </dataSource>
         </environment>
     </environments>
 <!-- 加载映射文件 -->
     <mappers>
-        <mapper resource="config/sqlmap/User.xml"/>
+    	<!-- 基本方法所需映射文件 -->
+        <mapper resource="sqlmap/User.xml"/>
+        <!-- mapper代理方法所需映射文件 -->
+        <mapper resource="sqlmap/UserMapper.xml"/>
     </mappers>
 </configuration>

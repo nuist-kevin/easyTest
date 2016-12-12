@@ -7,7 +7,7 @@ import java.util.List;
  * @author: 蔡文
  */
 public class User {
-    private Integer id;
+    private int id;
     // 姓名
     private String username;
     // 性别
@@ -19,10 +19,10 @@ public class User {
     // 用户创建的订单列表
     private List<Order> ordersList;
        // getter and setter ......
-	public Integer getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(Integer id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getUsername() {

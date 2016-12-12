@@ -4,7 +4,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <!-- namespace命名空间,作用就是对sql进行分类化的管理,理解为sql隔离 -->
-<mapper namespace="test">
+<mapper namespace="com.mybatis.dao.UserDao">
 
 	<!-- 注意:使用mapper代理开发时，namespace有特殊作用,namespace等于mapper接口地址  -->
 	<!-- <mapper namespace="com.mybatis.dao.UserDao"> -->
@@ -21,7 +21,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		使用${}拼接sql，可能会引起sql注入 
 		${value}:接收输入参数的内容，如果传入的是简单类型,${}中只能使用value -->
 	<select id="getUserByName" resultType="com.mybatis.entity.User">
-		SELECT * FROM t_user t WHERE  t.username LIKE '%${value}%';
+		SELECT * FROM t_user t WHERE t.username LIKE '%${value}%';
 	</select>
 
 	<insert id="insertUser" parameterType="com.mybatis.entity.User">

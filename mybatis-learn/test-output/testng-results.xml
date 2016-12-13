@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="473" started-at="2016-12-12T14:55:55Z" finished-at="2016-12-12T14:55:56Z">
+  <suite name="Default suite" duration-ms="2366" started-at="2016-12-13T09:21:23Z" finished-at="2016-12-13T09:21:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="473" started-at="2016-12-12T14:55:55Z" finished-at="2016-12-12T14:55:56Z">
+    <test name="Default test" duration-ms="2366" started-at="2016-12-13T09:21:23Z" finished-at="2016-12-13T09:21:25Z">
       <class name="com.mybatis.util.DBToolTest">
-        <test-method status="PASS" signature="testDeleteUser()[pri:0, instance:com.mybatis.util.DBToolTest@7921b0a2]" name="testDeleteUser" duration-ms="459" started-at="2016-12-12T22:55:55Z" finished-at="2016-12-12T22:55:56Z">
+        <test-method status="PASS" signature="testGetUserById()[pri:0, instance:com.mybatis.util.DBToolTest@5afa04c]" name="testGetUserById" duration-ms="2340" started-at="2016-12-13T17:21:23Z" finished-at="2016-12-13T17:21:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteUser -->
+        </test-method> <!-- testGetUserById -->
       </class> <!-- com.mybatis.util.DBToolTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

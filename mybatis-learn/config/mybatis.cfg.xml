@@ -13,15 +13,16 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
                 <property name="driver" value="com.mysql.jdbc.Driver" />
                 <property name="url" value="jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8" />
                 <property name="username" value="root" />
-                <property name="password" value="Caiwen2010" />
+                <property name="password" value="caiwen" />
             </dataSource>
         </environment>
     </environments>
 <!-- 加载映射文件 -->
     <mappers>
     	<!-- 基本方法所需映射文件 -->
-        <mapper resource="sqlmap/User.xml"/>
+        <!--<mapper resource="sqlmap/User.xml"/> -->
         <!-- mapper代理方法所需映射文件 -->
-        <mapper resource="sqlmap/UserMapper.xml"/>
+        <!--<mapper resource="sqlmap/UserMapper.xml"/> -->
+        <package name="com.mybatis.dao"/>        
     </mappers>
 </configuration>

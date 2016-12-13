@@ -5,7 +5,7 @@
     <classes>
       <class name="com.mybatis.util.DBToolTest">
         <methods>
-          <include name="testGetUserByName"/>
+          <include name="testGetUserById"/>
         </methods>
       </class> <!-- com.mybatis.util.DBToolTest -->
     </classes>
